@@ -3,10 +3,11 @@
 	"description" : "Retreat Town ported from vcmi",
 	"author" : "XEricSin, Zeryss, acidchalk, avatar, Fabrice.",
 	"contact" : "https://vk.com/club161023181",
-	"version" : "0.6.0",
+	"version" : "0.6.1",
 	"modType" : "Town",
 	"changelog" :
     {
+		"0.6.1" : [ "Updated russian translation" ],
 		"0.6.0" : [ "Russian translation by Anton Sergeew" ],
 		"0.5.9" : [ "New town theme by Fabrice-TIERCELIN and AI Udio" ],
 		"0.5.8" : [ "Added the creatures' stackExp, fixed the commander and other bugs" ],
