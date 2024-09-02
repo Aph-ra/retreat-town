@@ -38,8 +38,16 @@
 				"skill" : "leadership"
 			}
 		],
-		"specialty": //ammoCart
-		{
+		"specialty" : {
+			"bonuses" : {
+				"artillery" : {
+					"subtype" : "creature.ammoCart",
+					"type" : "STACK_HEALTH",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 50,
+					"valueType" : "PERCENT_TO_BASE"
+				}
+			}
 		}
 	}
-}
+}	

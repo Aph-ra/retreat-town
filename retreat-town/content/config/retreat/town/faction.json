@@ -71,8 +71,8 @@
 				"templates" : {
 					"capitol" : { "animation" : "retreat/adventure-map/town-capitol.def" },
 					"castle" : { "animation" : "retreat/adventure-map/town-castle.def" },
-					"citadel" : { "animation" : "retreat/adventure-map/town-castle.def" },
-					"fort" : { "animation" : "retreat/adventure-map/town-castle.def" },
+					"citadel" : { "animation" : "retreat/adventure-map/town-citadel.def" },
+					"fort" : { "animation" : "retreat/adventure-map/town-fort.def" },
 					"village" : { "animation" : "retreat/adventure-map/town-village.def" }
 				}
 			},
