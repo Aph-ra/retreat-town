@@ -243,5 +243,7 @@
     "mapObject.retreat-town.creatureGeneratorCommon.amStatue.name": "蛇神像",
     "mapObject.retreat-town.creatureGeneratorCommon.amTempl.name": "猴王庙",
     "mapObject.retreat-town.creatureGeneratorCommon.amVineYard.name": "藤园",
-    "mapObject.retreat-town.creatureGeneratorCommon.amWall.name": "大佛石刻"
+    "mapObject.retreat-town.creatureGeneratorCommon.amWall.name": "大佛石刻",
+	"spell.retreat-town.retreatMoat.name" : "壕沟",
+	"spell.retreat-town.retreatMoatTrigger.name" : "壕沟"
 }
