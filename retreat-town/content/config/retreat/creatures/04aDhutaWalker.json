@@ -1,0 +1,69 @@
+{
+	"amDhutaWalker":
+	{
+		"name" :
+		{
+			"plural" : "Dhuta Walkers",
+			"singular" : "Dhuta Walker"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 20,
+			 "min" : 10
+		},
+		"faction" : "retreat",
+		"aiValue" : 456,
+		"attack" : 9,
+        "cost" :
+		{
+			"gold" : 300
+		},
+		"damage" :
+		{
+			 "max" : 6,
+			 "min" : 5
+		},
+		"defense" : 10,
+		"fightValue" : 413,
+		"graphics" :
+		{
+			"animation" : "retreat/battle/CR205.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 0.4 },
+			"map" : "retreat/map/AVW205.def",
+			"iconSmall" : "retreat/iconsSmall/CPrS205.bmp",
+			"iconLarge" : "retreat/iconsBig/CPrL205.bmp",
+			"timeBetweenFidgets" : 1
+        },
+		"growth" : 4,
+		"hitPoints" : 40,
+		"level" : 4,
+		"upgrades":
+		[
+			"amDhutaSeeker"
+		],
+		"sound" :
+		{
+			"attack": "retreat/S205ATTK.wav",
+			"defend": "retreat/S205DFND.wav",
+			"killed": "retreat/S205KILL.wav",
+			"move":   "retreat/S205MOVE.wav",
+			"shoot":  "retreat/S205SHOT.wav",
+			"wince":  "retreat/S205WNCE.wav"
+		},
+		"speed" : 5,
+		"abilities" :
+		{
+            "attacksAllAdjacent":
+			{
+				"type":"ATTACKS_ALL_ADJACENT"
+            },
+            "suck" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.forgetfulness",
+				"val" : 35,
+				"limiters" : [ "SHOOTER_ONLY" ]
+			}
+		}
+	}
+}

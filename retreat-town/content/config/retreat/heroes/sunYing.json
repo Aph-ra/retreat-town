@@ -1,5 +1,5 @@
 {
-	"sunYing" : 
+	"06sunYing" : 
 	{
 		"class" : "vanguard",
 		"female" : false,
@@ -9,7 +9,7 @@
 			"biography" : "Sun Ying is the shadow of the Monkey King Sun Wukong. He has inherited Wukong's integrity and toughness, but he is not able to well control his anger and recklessness.",
 			"specialty" : 
 			{
-				"description" : "{Armorer}\r\n\r\nReceives a 5% per level bonus to Mysticism skill percentage.",
+				"description" : "Receives a 5% per level bonus to Armorer skill percentage.",
 				"tooltip" : "Skill Bonus: Armorer",
 				"name" : "Armorer"
 			}
@@ -23,7 +23,7 @@
 		},
 		"army" :
 		[
-			{ "creature" : "amHuluLeave", "min" : 10, "max" : 20 },
+			{ "creature" : "amHuluLeaf", "min" : 10, "max" : 20 },
 			{ "creature" : "amMonkey", "min" : 5, "max" : 7 },
 			{ "creature" : "amMonkey", "min" : 5, "max" : 7 }
 		],

@@ -1,5 +1,5 @@
 {
-	"luDaShi" : 
+	"15luDaShi" : 
 	{
 		"class" : "yingYanMaster",
 		"female" : false,
@@ -9,8 +9,8 @@
 			"biography" : "Lu Da Shi is such a mysterious person who can manipulate the weather and geography to his advantage.",
 			"specialty" : 
 			{
-				"description" : "{Mysticism}\r\n\r\nReceives a 7% per level bonus to Mysticism skill percentage.",
-				"tooltip" : "Skill Bonus: Mysticism",  //or tactics?
+				"description" : "Receives a 5% per level bonus to Mysticism skill percentage.",
+				"tooltip" : "Skill Bonus: Mysticism",
 				"name" : "Mysticism"
 			}
 		},
@@ -28,9 +28,9 @@
 		],
 		"army" :
 		[
-			{ "creature" : "amHuluLeave", "min" : 10, "max" : 20 },
+			{ "creature" : "amHuluLeaf", "min" : 10, "max" : 20 },
 			{ "creature" : "amMonkey", "min" : 5, "max" : 7 },
-			{ "creature" : "amSwordServant", "min" : 3, "max" : 4 }
+			{ "creature" : "amCultivator", "min" : 3, "max" : 4 }
 		],
 		"skills" :
 		[
@@ -48,7 +48,7 @@
 				"mysticism" : {
 					"targetSourceType" : "SECONDARY_SKILL",
 					"type" : "MANA_REGENERATION",
-					"val" : 7,
+					"val" : 5,
 					"valueType" : "PERCENT_TO_BASE",
 					"updater" : "TIMES_HERO_LEVEL"
 				}

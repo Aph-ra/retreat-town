@@ -8,22 +8,22 @@
 		},
 		"faction" : "retreat",
 		"level": 0,
-		"aiValue" : 156,
+		"aiValue" : 1021,
 		"special" : true,
 		"attack" : 5,
 		"damage" :
 		{
-			"max" : 12,
-			"min" : 6
+			"max" : 15,
+			"min" : 15
 		},
 		"defense" : 5,
-		"fightValue" : 130,
+		"fightValue" : 916,
 		"graphics" :
 		{
-			"animation" : "retreat/battle/peng hou.def",
-			"map" : "retreat/map/peng hou.def",
-			"iconSmall" : "retreat/iconsSmall/peng hou.bmp",
-			"iconLarge" : "retreat/iconsBig/peng hou.bmp",
+			"animation" : "retreat/battle/zm182npc.def",
+//			"map" : "retreat/map/zm182npc.def",
+			"iconSmall" : "retreat/iconsSmall/pengSmall.bmp",
+			"iconLarge" : "retreat/iconsBig/pengBig.bmp",
 			"timeBetweenFidgets" : 1,
 			"animationTime" :
 			{
@@ -49,9 +49,9 @@
 			}
 		},
 		"doubleWide" : false,
-		"growth" : 9,
+		"growth" : 1,
 		"hitPoints" : 40,
-        "shots" : 24,
+//        "shots" : 24,
 		"sound" :
 		{
 			"attack": "retreat/GRPLATTK.wav",
@@ -61,10 +61,10 @@
             "shoot" : "retreat/PENGSHOT.wav",
 			"wince": "retreat/GRPLWNCE.wav"
 		},
-		"speed" : 4,
+		"speed" : 5,
 		"abilities" :
 		{
- 		    "magicResistance" :
+			"magicResistance" :
 			{
 				"type" : "MAGIC_RESISTANCE",
 				"val" : 5

@@ -3,10 +3,11 @@
 	"description" : "Retreat Town ported from vcmi",
 	"author" : "XEricSin, Zeryss, acidchalk, avatar, Fabrice.",
 	"contact" : "https://vk.com/club161023181",
-	"version" : "0.6.3",
+	"version" : "0.7.0",
 	"modType" : "Town",
 	"changelog" :
     {
+		"0.7.0" : [ "Line-up changes", "Third upgrades added" ],
 		"0.6.3" : [ "Updated chinese translation" ],
 		"0.6.2" : [ "New town and citadel sprites on map" ],
 		"0.6.1" : [ "Updated russian translation" ],
@@ -66,25 +67,29 @@
 	],
 	"creatures" :
 	[
-		"config/retreat/creatures/HuluLeave",
-		"config/retreat/creatures/HuluFlover",
-        "config/retreat/creatures/Monkey",
-		"config/retreat/creatures/FighterMonkey",
-		"config/retreat/creatures/BronzeMonk",
-		"config/retreat/creatures/GoldenLo'han",
-		"config/retreat/creatures/SwordServant",
-		"config/retreat/creatures/SwordMaster",
-		"config/retreat/creatures/GirlSnake",
-		"config/retreat/creatures/Maikom",
-		"config/retreat/creatures/DragonTurtle",
-		"config/retreat/creatures/StoneDragonTurtle",
-		"config/retreat/creatures/PengHou",
-		"config/retreat/creatures/fireDragon",
-		"config/retreat/creatures/jadeDragon",
-		"config/retreat/creatures/SilverDragon",
-		"config/retreat/creatures/greatDeer",
-		"config/retreat/creatures/whiteDeer",
-        "config/retreat/creatures/GoldenLion"
+		"config/retreat/creatures/01aHuluLeaf",
+		"config/retreat/creatures/01bHuluFlower",
+		"config/retreat/creatures/01cHuluVine",
+        "config/retreat/creatures/02aMonkey",
+		"config/retreat/creatures/02bMonkeyElder",
+		"config/retreat/creatures/02cMonkeyLeader",
+		"config/retreat/creatures/03aCultivator",
+		"config/retreat/creatures/03bSwordCultivator",
+		"config/retreat/creatures/03cGoldenCoreCultivator",
+		"config/retreat/creatures/04aDhutaWalker",
+		"config/retreat/creatures/04bDhutaSeeker",
+		"config/retreat/creatures/04cDhutaVenerable",
+		"config/retreat/creatures/05aDeerGirl",
+		"config/retreat/creatures/05bDeerFairy",
+		"config/retreat/creatures/05cJueRu",
+		"config/retreat/creatures/06aSnakeGrasper",
+		"config/retreat/creatures/06bSnakeBearer",
+		"config/retreat/creatures/06cJiuYing",
+		"config/retreat/creatures/07aFireDragon",
+		"config/retreat/creatures/07bJadeDragon",
+		"config/retreat/creatures/07cYingLong",		
+		"config/retreat/creatures/pengHou",
+        "config/retreat/creatures/goldenLion"
 		
 	],
     "artifacts":
@@ -120,9 +125,5 @@
 	"objects" : 
 	[ 
 		"config/retreat/dwellings"
-	],
-	"spells" : 
-	[ 
-		"config/retreat/moat"
 	]
 }
