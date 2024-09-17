@@ -3,10 +3,11 @@
 	"description" : "Retreat Town ported from vcmi",
 	"author" : "XEricSin, Zeryss, acidchalk, avatar, Fabrice.",
 	"contact" : "https://vk.com/club161023181",
-	"version" : "0.7.0",
+	"version" : "0.7.1",
 	"modType" : "Town",
 	"changelog" :
     {
+		"0.7.1" : [ "New creature portraits by Aphra" ],
 		"0.7.0" : [ "Line-up changes", "Third upgrades added" ],
 		"0.6.3" : [ "Updated chinese translation" ],
 		"0.6.2" : [ "New town and citadel sprites on map" ],
