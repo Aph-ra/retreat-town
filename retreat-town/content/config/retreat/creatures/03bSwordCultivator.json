@@ -79,11 +79,7 @@
 			{
 				"type" : "SHOOTER"
 			},
-			"defencing" :
-			{
-				"type" : "DEFENSIVE_STANCE",
-				"val" : 40
-			},
+
 			"noMeleePenalty" :
 			{
 				"type" : "NO_MELEE_PENALTY"

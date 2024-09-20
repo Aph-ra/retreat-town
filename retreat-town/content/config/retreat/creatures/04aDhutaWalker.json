@@ -51,18 +51,17 @@
 			"wince":  "retreat/S205WNCE.wav"
 		},
 		"speed" : 5,
-		"abilities" :
-		{
-            "attacksAllAdjacent":
-			{
-				"type":"ATTACKS_ALL_ADJACENT"
-            },
-            "suck" :
+		"abilities" :	{		"suck" :
 			{
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.forgetfulness",
 				"val" : 35,
 				"limiters" : [ "SHOOTER_ONLY" ]
+			}
+,	"defencing" :
+			{
+				"type" : "DEFENSIVE_STANCE",
+				"val" : 4
 			}
 		}
 	}

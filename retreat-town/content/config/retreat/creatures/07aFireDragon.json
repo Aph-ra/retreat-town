@@ -53,8 +53,13 @@
 		},
 		"speed" : 12,
 		"abilities" :
-		{
-			"dragon" :
+ {
+			"basicSlayer" : {
+				"type" : "KING",
+				"val" : 0,
+				"valueType" : "ADDITIVE_VALUE"
+			},
+		"dragon" :
 			{
 				"type" : "DRAGON_NATURE"
 			},

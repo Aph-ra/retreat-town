@@ -52,9 +52,14 @@
 			"wince":  "retreat/S211WNCE.wav"             
 		},
 		"speed" : 17,
-		"abilities" :
-		{
-			"dragon" :
+		"abilities" : {
+			"basicSlayer" : {
+				"type" : "KING",
+				"val" : 0,
+				"valueType" : "ADDITIVE_VALUE"
+			},
+
+		"dragon" :
 			{
 				"type" : "DRAGON_NATURE"
 			},
@@ -86,6 +91,8 @@
 			"healer" : 
 			{
 				"type" : "HEALER"
+,
+				"subtype" : "spell.firstAid"
 			}
 		}
 	}
