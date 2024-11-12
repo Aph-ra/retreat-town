@@ -9,8 +9,8 @@
 			"biography" : "Sheng Fu Gui is born a successful merchant and entrepreneur. His capability and personality are both highly recognised by the folks.",
 			"specialty" : 
 			{
-				"description" : "Starts with Advanced Estates.",
-				"tooltip" : "Skill Bonus: Estates",
+				"description" : "Receives a 5% per level bonus to Estates skill.",
+				"tooltip" : "Secondary Skill Bonus: Estates",
 				"name" : "Estates"
 			}
 		},
@@ -24,23 +24,31 @@
 
 		"spellbook" :
 		[
-	"viewAir"
-	],
+			"viewAir"
+		],
 		"army" :
 		[
 			{ "creature" : "amHuluLeaf", "min" : 15, "max" : 25 },
 			{ "creature" : "amMonkey", "min" : 5, "max" : 7 },
 			{ "creature" : "amCultivator", "min" : 3, "max" : 4 }
 		],
-		"skills" :
+		"skills":
 		[
-			{
-				"level" : "advanced",
-				"skill" : "estates"
-			}
+			{ "skill" : "estates", "level": "basic" },
+			{ "skill" : "logistics", "level": "basic" }
 		],
     
 		"specialty" : {
+			"bonuses" : {
+				"estates" : {
+					"subtype" : "resource.gold",
+					"type" : "GENERATE_RESOURCE",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE",
+					"targetSourceType" : "SECONDARY_SKILL"
+				}
+			}
 		}
 	}
 }

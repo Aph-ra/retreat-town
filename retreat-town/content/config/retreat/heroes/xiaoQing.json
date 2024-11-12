@@ -10,7 +10,7 @@
 			"specialty" : 
 			{
 				"description" : "Receives a 5% per level bonus to Logistics skill percentage.",
-				"tooltip" : "Skill Bonus: Logistics",
+				"tooltip" : "Secondary Skill Bonus: Logistics",
 				"name" : "Logistics"
 			}
 		},

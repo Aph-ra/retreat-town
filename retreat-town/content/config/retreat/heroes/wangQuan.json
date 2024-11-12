@@ -6,12 +6,12 @@
 		"texts" :
 		{
 			"name" : "Wang Quan",
-			"biography" : "Wang Quan is a master of sword and has a high position in the Taoist Alliance. Few have seen him using a sword.",
+			"biography" : "Wang Quan is a master of the sword and has a high position in the Taoist Alliance. Few have seen her using a sword.",
 			"specialty" : 
 			{
-				"description" : "Increases Ammo Cart health by 50%.",
-				"tooltip" : "Creature Bonus: Ammo Cart",
-				"name" : "Ammo Cart"
+				"description" : "Increases the Attack and Defense skills of any Golden Folangji by 5% for every 6 levels (rounded up).",
+				"tooltip" : "Creature Bonus: Golden Folangji",
+				"name" : "Golden Folangji"
 			}
 		},
 		"images" :
@@ -24,7 +24,7 @@
 		"army" :
 		[
 			{ "creature" : "amHuluLeaf", "min" : 15, "max" : 25 },
-			{ "creature" : "ammoCart", "min" : 1, "max" : 1 },
+			{ "creature" : "atGoldenLion", "min" : 1, "max" : 1 },
 			{ "creature" : "amCultivator", "min" : 3, "max" : 4 }
 		],
 		"skills" :
@@ -39,20 +39,7 @@
 			}
 		],
 		"specialty" : {
-			"bonuses" : {
-				"cartHealth" : {
-					"type" : "STACK_HEALTH",
-					"updater" : "TIMES_HERO_LEVEL",
-					"val" : 50,
-					"valueType" : "PERCENT_TO_BASE",
-					"limiters" : [
-						{
-							"parameters" : [ "ammoCart", false ],
-							"type" : "CREATURE_TYPE_LIMITER"
-						}
-					]
-				}
-			}
+			"creature" : "atGoldenLion"
 		}
 	}
 }

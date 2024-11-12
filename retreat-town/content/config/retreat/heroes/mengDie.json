@@ -9,7 +9,7 @@
 			"biography" : "Meng Die was Ding Chan's wife. Soaked with sorrow and hate after his leave, she has locked herself in the study of corpse magics.",
 			"specialty" : 
 			{
-				"description" : "Casts Sorrow spell with expert effects but not expert range.",
+				"description" : "Casts Sorrow with effect increased by 3% for every n hero levels, where n is the level of the targeted creature. ",
 				"tooltip" : "Spell Bonus: Sorrow",
 				"name" : "Sorrow"
 			}
@@ -43,12 +43,12 @@
 				"skill" : "wisdom"
 			}
 		],
-		"specialty" : {
-			"bonuses" : {
-				"sorrow" : {
-					"addInfo" : 3,
+		"specialty": {
+			"bonuses": {
+				"sorrow": {
+					"addInfo" : 0,
 					"subtype" : "spell.sorrow",
-					"type" : "SPECIAL_FIXED_VALUE_ENCHANT"
+					"type" : "SPECIAL_PECULIAR_ENCHANT"
 				}
 			}
 		}

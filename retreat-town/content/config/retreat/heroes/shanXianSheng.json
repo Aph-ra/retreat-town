@@ -10,7 +10,7 @@
 			"specialty" : 
 			{
 				"description" : "Starts with Expert Earth Magic.",
-				"tooltip" : "Skill Bonus: Earth Magic",
+				"tooltip" : "Secondary Skill Bonus: Earth Magic",
 				"name" : "Earth Magic"
 			}
 		},
