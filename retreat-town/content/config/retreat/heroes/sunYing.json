@@ -10,7 +10,7 @@
 			"specialty" : 
 			{
 				"description" : "Receives a 5% per level bonus to Armorer skill percentage.",
-				"tooltip" : "Skill Bonus: Armorer",
+				"tooltip" : "Secondary Skill Bonus: Armorer",
 				"name" : "Armorer"
 			}
 		},
@@ -40,12 +40,13 @@
 		],
 		"specialty" : {
 			"bonuses" : {
-				"resistance" : {
+				"armorer" : {
+					"type" : "GENERAL_DAMAGE_REDUCTION",
+					"subtype" : "damageTypeAll",
 					"targetSourceType" : "SECONDARY_SKILL",
-					"type" : "MAGIC_RESISTANCE",
+					"updater" : "TIMES_HERO_LEVEL",
 					"val" : 5,
-					"valueType" : "PERCENT_TO_BASE",
-					"updater" : "TIMES_HERO_LEVEL"
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
 				}
 			}
 		}

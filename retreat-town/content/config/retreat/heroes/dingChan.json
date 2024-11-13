@@ -9,9 +9,9 @@
 			"biography" : "Before becoming a monk, Ding Chan was Meng Die's husband. One night, he received a heavenly revelation and soon realised his fate.",
 			"specialty" : 
 			{
-				"description" : "Casts Dispell spell with expert effects but not expert range.",
-				"tooltip" : "Spell Bonus: Dispel",
-				"name" : "Dispel"
+				"description" : "Casts Frost Ring with damage increased by 3% for every n hero levels, where n is the level of the targeted creature.",
+				"tooltip" : "Spell Bonus: Frost Ring",
+				"name" : "Frost Ring"
 			}
 		},
 		"images" :
@@ -24,7 +24,7 @@
 
 		"spellbook" :
 		[
-			"dispel"
+			"frostRing"
 		],
 		"army" :
 		[
@@ -36,20 +36,21 @@
 		[
 			{
 				"level" : "basic",
-				"skill" : "eagleEye"
+				"skill" : "wisdom"
 			},
 			{
 				"level" : "basic",
-				"skill" : "wisdom"
+				"skill" : "waterMagic"
 			}
 		],
     
 		"specialty" : {
 			"bonuses" : {
-				"dispel" : {
-					"addInfo" : 3,
-					"subtype" : "spell.dispel",
-					"type" : "SPECIAL_FIXED_VALUE_ENCHANT"
+				"frostRing" : {
+					"subtype" : "spell.frostRing",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 3
 				}
 			}
 		}

@@ -9,8 +9,8 @@
 			"biography" : "Sun Xiao Hou is a monkey from the Waterfall Cave. His ambition is to become a great monkey as the Monkey King Sun Wukong.",
 			"specialty" : 
 			{
-				"description" : "Increases Speed of any Monkeys, Monkey Elders or Monkey Leaders by 1 and their Attack and Defense skills by 5% for 2 levels (rounded up).",
-				"tooltip" : "Creature Bonus: Monkey",
+				"description" : "Increases the speed of Monkeys, Monkey Elders, or Monkey Leaders by 1 and their Attack and Defense skills by 5% for every 2 levels (rounded up).",
+				"tooltip" : "Creature Bonus: Monkeys",
 				"name" : "Monkeys"
 			}
 		},

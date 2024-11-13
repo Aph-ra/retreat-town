@@ -10,7 +10,7 @@
 			"specialty" : 
 			{
 				"description" : "Receives a 5% per level bonus to Mysticism skill percentage.",
-				"tooltip" : "Skill Bonus: Mysticism",
+				"tooltip" : "Secondary Skill Bonus: Mysticism",
 				"name" : "Mysticism"
 			}
 		},
