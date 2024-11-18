@@ -3,10 +3,11 @@
 	"description" : "Retreat Town ported from vcmi",
 	"author" : "XEricSin, Zeryss, acidchalk, avatar, Fabrice.",
 	"contact" : "https://vk.com/club161023181",
-	"version" : "0.8.0",
+	"version" : "0.8.1",
 	"modType" : "Town",
 	"changelog" :
     {
+	        "0.8.1" : [ "Polish translation by FallainBlack" ],
 		"0.8.0" : [ "Lord Hawk's town balance" ],
 		"0.7.1" : [ "New creature portraits by Aphra" ],
 		"0.7.0" : [ "Line-up changes", "Third upgrades added" ],
@@ -25,7 +26,7 @@
 		"0.5.1" : [ "Special buildings support" ],
 		"0.5.0" : [ "Re-worked mod to match ERA original version" ]
     },
-    "chinese" : {
+        "chinese" : {
 		"name" : "桃源",
 		"description" : "桃源是一个以中国风为设计要素的种族，取材自中国的神话传说和后世的玄幻小说，有着独有的国风韵味。",
 		"translations" : [
@@ -37,6 +38,13 @@
 		"description" : "Ville chinoise à l'âge d'or de l'empire du milieu",
 		"translations" : [
 			"translation/retreat/french.json"
+		]
+	},
+        "polish" : {
+		"name" : "Zacisze",
+		"description" : "Zacisze - miasto w stylu dalekowschodnim",
+		"translations" : [
+			"translation/retreat/polish.json"
 		]
 	},
 	"german" : {
