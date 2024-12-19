@@ -7,7 +7,7 @@
 		"nativeTerrain" : "grass",
 		"town" :
 		{
-			"musicTheme" : "music/retreat/theme",
+			"musicTheme" : [ "music/retreat/theme" ],
 			"defaultTavern" : 5,
 			"tavernVideo" : "TAVERN.BIK",
 			"guildBackground" : "TPMAGE.bmp",
@@ -56,8 +56,6 @@
 			"horde" : [ 0 , 1],
 			"moatAbility" : "castleMoat",
 			"mageGuild" : 5,
-			"primaryResource" : "gems",
-			"warMachine" : "atGoldenLion",
 			"buildingsIcons" : "retreat/town-hall.def",
 			"icons" :
 			{

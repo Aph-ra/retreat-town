@@ -3,11 +3,12 @@
 	"description" : "Retreat Town ported from vcmi",
 	"author" : "XEricSin, Zeryss, acidchalk, avatar, Fabrice.",
 	"contact" : "https://vk.com/club161023181",
-	"version" : "0.8.2",
+	"version" : "0.8.3",
 	"modType" : "Town",
 	"changelog" :
     {
-	        "0.8.2" : [ "Polish translation by FallainBlack" ],
+		"0.8.3" : [ "Update to vcmi-1.6 format" ],
+		"0.8.2" : [ "Polish translation by FallainBlack" ],
 		"0.8.0" : [ "Lord Hawk's town balance" ],
 		"0.7.1" : [ "New creature portraits by Aphra" ],
 		"0.7.0" : [ "Line-up changes", "Third upgrades added" ],

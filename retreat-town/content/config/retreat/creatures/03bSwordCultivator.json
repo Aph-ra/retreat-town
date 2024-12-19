@@ -30,7 +30,7 @@
 		"graphics" :
 		{
 			"animation" : "retreat/battle/CR204.def",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 0.33 },
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1.2 },
 			"map" : "retreat/map/AVW204.def",
 			"iconSmall" : "retreat/iconsSmall/CPrS204.bmp",
 			"iconLarge" : "retreat/iconsBig/CPrL204.bmp",

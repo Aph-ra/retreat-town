@@ -35,7 +35,7 @@
 			"timeBetweenFidgets" : 1,
 			"animationTime" :
 			{
-				"walk" : 0.33,
+				"walk" : 1,
 				"attack" : 1,
 				"idle" : 10
 			},

@@ -191,6 +191,7 @@
 				{
 					"name" : "Marketplace",
 					"description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
+					"marketModes" : ["resource-resource", "resource-player"],
 					"cost" :
 					{
 						"wood" : 5,
@@ -202,6 +203,7 @@
 				{
 					"description" : "The Resourse Silo provides you with an additional +1 gems each day.",
 					"name" : "Resourse Silo",
+					"produce": { "gems": 1},
 					"cost" :
 					{
 						"ore" : 5,
@@ -214,6 +216,7 @@
 				{
 					"description" : "The Blacksmith provides your armies with Golden Folangjis.",
 					"name" : "Blacksmith",
+					"warMachine" : "atGoldenLion",
 					"cost" :
 					{
 						"wood" : 5,
@@ -266,7 +269,7 @@
 				{
 					"description" : "For a nominal fee, you can purchase artifacts from the Artifact Merchants.",
 					"name" : "Artifact Merchant",
-					"type" : "artifactMerchant",
+					"marketModes" : ["resource-artifact", "artifact-resource"],
 					"cost" : {
 						"gold" : 10000
 					},
@@ -280,7 +283,15 @@
 					"cost" : {
 						"gold" : 3000
 					},
-					"type" : "spellPowerVisitingBonus", 
+					"configuration" : {
+						"visitMode" : "hero",
+						"rewards" : [
+							{
+								"message" : "The Lake Pavilion teaches you new ways to focus your magical powers (+1 Power)",
+								"primary" : { "spellpower" : 1 }
+							}
+						]
+					},
 					"requires" : [ "mageGuild1" ]
 //					"id" : 21
 				},

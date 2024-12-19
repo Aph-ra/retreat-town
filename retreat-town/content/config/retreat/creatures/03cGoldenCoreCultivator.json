@@ -30,7 +30,7 @@
 		"graphics" :
 		{
 			"animation" : "retreat/battle/CR223.def",
-			"animationTime" : { "attack" : 1.0, "idle" : 10, "walk" : 0.33 },
+			"animationTime" : { "attack" : 1.0, "idle" : 10, "walk" : 1.2 },
 			"map" : "retreat/map/AVW223.def",
 			"iconSmall" : "retreat/iconsSmall/CPrS223.bmp",
 			"iconLarge" : "retreat/iconsBig/CPrL223.bmp",
